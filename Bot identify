@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-21T08:59:15.845Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="OtO8SCW-ODnge2Q_cm-I" version="17.1.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-21T09:05:32.065Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="ZF5TdOFjUBO6H3m2QooZ" version="17.1.3" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="大致流程">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -405,7 +405,7 @@
         <mxCell id="QqKem3Vj6puf9ZYuzD_Y-3" value="3次请求" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="uuhTnaVNN9u4zRoG-ngI-1">
           <mxGeometry x="360" y="120" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QqKem3Vj6puf9ZYuzD_Y-5" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="uuhTnaVNN9u4zRoG-ngI-1">
+        <mxCell id="QqKem3Vj6puf9ZYuzD_Y-5" value="5次请求" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="uuhTnaVNN9u4zRoG-ngI-1">
           <mxGeometry x="520" y="120" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QqKem3Vj6puf9ZYuzD_Y-6" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="uuhTnaVNN9u4zRoG-ngI-1">
@@ -505,6 +505,69 @@
         </mxCell>
         <mxCell id="QqKem3Vj6puf9ZYuzD_Y-31" value="Redis" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uuhTnaVNN9u4zRoG-ngI-1">
           <mxGeometry x="40" y="255" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QqKem3Vj6puf9ZYuzD_Y-32" value="应用A用户A访问流&lt;br&gt;按2分钟周期分组" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uuhTnaVNN9u4zRoG-ngI-1">
+          <mxGeometry x="10" y="125" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QqKem3Vj6puf9ZYuzD_Y-33" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=default;" edge="1" parent="uuhTnaVNN9u4zRoG-ngI-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="439" y="320" as="sourcePoint" />
+            <mxPoint x="439" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QqKem3Vj6puf9ZYuzD_Y-34" value="2次请求" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="uuhTnaVNN9u4zRoG-ngI-1">
+          <mxGeometry x="120" y="440" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QqKem3Vj6puf9ZYuzD_Y-35" value="52次请求" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="uuhTnaVNN9u4zRoG-ngI-1">
+          <mxGeometry x="200" y="440" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QqKem3Vj6puf9ZYuzD_Y-36" value="252次请求" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="uuhTnaVNN9u4zRoG-ngI-1">
+          <mxGeometry x="280" y="440" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QqKem3Vj6puf9ZYuzD_Y-37" value="255次请求" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="uuhTnaVNN9u4zRoG-ngI-1">
+          <mxGeometry x="360" y="440" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QqKem3Vj6puf9ZYuzD_Y-38" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="uuhTnaVNN9u4zRoG-ngI-1">
+          <mxGeometry x="520" y="440" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QqKem3Vj6puf9ZYuzD_Y-39" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="uuhTnaVNN9u4zRoG-ngI-1">
+          <mxGeometry x="600" y="440" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QqKem3Vj6puf9ZYuzD_Y-40" value="........." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uuhTnaVNN9u4zRoG-ngI-1">
+          <mxGeometry x="440" y="440" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QqKem3Vj6puf9ZYuzD_Y-41" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=default;" edge="1" parent="uuhTnaVNN9u4zRoG-ngI-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="520" as="sourcePoint" />
+            <mxPoint x="440" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QqKem3Vj6puf9ZYuzD_Y-42" value="特征正常" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="uuhTnaVNN9u4zRoG-ngI-1">
+          <mxGeometry x="120" y="640" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QqKem3Vj6puf9ZYuzD_Y-43" value="特征正常" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="uuhTnaVNN9u4zRoG-ngI-1">
+          <mxGeometry x="200" y="640" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QqKem3Vj6puf9ZYuzD_Y-44" value="&lt;font color=&quot;#ff0000&quot;&gt;特征异常&lt;br&gt;插入MongoDB&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="uuhTnaVNN9u4zRoG-ngI-1">
+          <mxGeometry x="280" y="640" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QqKem3Vj6puf9ZYuzD_Y-45" value="&lt;span style=&quot;color: rgb(255 , 0 , 0)&quot;&gt;特征异常&lt;br&gt;更新MongoDB&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="uuhTnaVNN9u4zRoG-ngI-1">
+          <mxGeometry x="360" y="640" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QqKem3Vj6puf9ZYuzD_Y-46" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="uuhTnaVNN9u4zRoG-ngI-1">
+          <mxGeometry x="520" y="640" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QqKem3Vj6puf9ZYuzD_Y-47" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="uuhTnaVNN9u4zRoG-ngI-1">
+          <mxGeometry x="600" y="640" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QqKem3Vj6puf9ZYuzD_Y-48" value="........." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uuhTnaVNN9u4zRoG-ngI-1">
+          <mxGeometry x="440" y="640" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QqKem3Vj6puf9ZYuzD_Y-49" value="0次" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="uuhTnaVNN9u4zRoG-ngI-1">
+          <mxGeometry x="520" y="240" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QqKem3Vj6puf9ZYuzD_Y-50" value="20min以上未作操作&lt;br&gt;该key已过期" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="uuhTnaVNN9u4zRoG-ngI-1">
+          <mxGeometry x="400" y="250" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
